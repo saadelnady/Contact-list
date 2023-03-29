@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact list</title>
+    <link rel="shortcut icon" href="contact-list.jpg">
+    <!-- font Awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" <!-- main
+        css -->
+    <link rel=" stylesheet" href="main.css ">
+</head>
+
+<body>
+
+    <div class="overlay">
+
+        <form action="">
+            <i class="fa-solid fa-xmark close"></i>
+            <i class="fa-solid fa-user-plus logo"></i>
+            <input type="text" placeholder="Name" id="name">
+            <input type="number" placeholder="Phone" id="phone">
+            <input type="email" placeholder="E-mail" id="email">
+            <input type="text" placeholder="Address" id="address">
+            <input type="submit" value="Save" id="save">
+        </form>
+
+
+    </div>
+
+
+
+    <div class="contact-list">
+
+
+        <header>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" id="search" placeholder="search Contact">
+            </div>
+            <button id="addContact">
+                <i class="fa-solid fa-user-plus"></i>
+                Add new Contact</button>
+        </header>
+
+        <table>
+            <thead>
+                <tr>
+                    <td>#Id</td>
+                    <td><i class="fa-solid fa-user"></i> Name</td>
+                    <td><i class="fa-solid fa-phone-flip"></i> Phone</td>
+                    <td><i class="fa-solid fa-envelope"></i> E-mail</td>
+                    <td><i class="fa-solid fa-map-location-dot"></i> Address</td>
+                    <td><i class="fa-solid fa-pen-to-square"></i> Edit</td>
+                    <td><i class="fa-solid fa-trash-can"></i>Delete</td>
+                </tr>
+            </thead>
+            <tbody>
+
+
+            </tbody>
+        </table>
+        <div id="deletAll">
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
