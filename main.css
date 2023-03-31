@@ -1,359 +1,359 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: "Edu NSW ACT Foundation", cursive;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Edu NSW ACT Foundation", cursive;
 }
 
 .scrollTotop {
-    position: fixed;
-    right: 30px;
-    bottom: 8px;
-    font-size: 30px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    border-radius: 50%;
-    border: 1px solid crimson;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    cursor: pointer;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    display: none;
+  position: fixed;
+  right: 30px;
+  bottom: 8px;
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  border: 1px solid crimson;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  display: none;
 }
 
 .scrollTotop:hover {
-    color: #fff;
-    background-color: crimson;
+  color: #fff;
+  background-color: crimson;
 }
 
 .contact-list {
-    max-width: 85%;
-    margin: 0 auto;
-    padding: 25px 0px;
+  max-width: 85%;
+  margin: 0 auto;
+  padding: 25px 0px;
 }
 
 header {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: baseline;
-    flex-wrap: wrap;
-    margin-bottom: 25px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
 }
 
 @media (max-width: 768px) {
-    header .search {
-        margin-bottom: 10px;
-    }
+  header .search {
+    margin-bottom: 10px;
+  }
 }
 
 .search {
-    position: relative;
-    z-index: 1;
+  position: relative;
+  z-index: 1;
 }
 
 .search .arrow {
-    position: absolute;
-    right: 27px;
-    top: 25%;
-    cursor: pointer;
+  position: absolute;
+  right: 27px;
+  top: 25%;
+  cursor: pointer;
 }
 
 .search .arrow i.active {
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
 }
 
 .search .searchby {
-    position: absolute;
-    left: 0px;
-    margin-top: 2px;
-    list-style-type: none;
-    background-color: #eee;
-    display: none;
-    width: 100%;
+  position: absolute;
+  left: 0px;
+  margin-top: 2px;
+  list-style-type: none;
+  background-color: #eee;
+  display: none;
+  width: 100%;
 }
 
 .search .searchby.active {
-    display: block;
+  display: block;
 }
 
 .search .searchby li {
-    padding: 6px 8px;
-    cursor: pointer;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  padding: 6px 8px;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .search .searchby li:hover {
-    background-color: crimson;
-    color: #fff;
+  background-color: crimson;
+  color: #fff;
 }
 
 .search i {
-    position: absolute;
-    top: 33%;
-    left: 8px;
-    color: #ccc;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  position: absolute;
+  top: 33%;
+  left: 8px;
+  color: #ccc;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .search input {
-    width: 155px;
-    border: 2px solid #eee;
-    outline: none;
-    color: crimson;
-    padding: 8px 8px 8px 25px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  width: 155px;
+  border: 2px solid #eee;
+  outline: none;
+  color: crimson;
+  padding: 8px 8px 8px 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .search:hover i {
-    color: crimson;
+  color: crimson;
 }
 
 .search:hover input {
-    border-color: crimson;
+  border-color: crimson;
 }
 
 .search input:focus {
-    width: 180px;
+  width: 180px;
 }
 
 header #addContact {
-    padding: 8px 10px;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    border: none;
-    width: 160px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  border: none;
+  width: 160px;
 }
 
 header #addContact i {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 header #addContact:hover {
-    background-color: crimson;
-    color: #eee;
+  background-color: crimson;
+  color: #eee;
 }
 
 table {
-    width: 100%;
-    margin: auto;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    border-top: 2px solid #eee;
-    border-right: 2px solid #eee;
+  width: 100%;
+  margin: auto;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-top: 2px solid #eee;
+  border-right: 2px solid #eee;
 }
 
 table td {
-    padding: 10px;
-    text-align: center;
-    border-left: 2px solid #eee;
-    border-bottom: 2px solid #eee;
+  padding: 10px;
+  text-align: center;
+  border-left: 2px solid #eee;
+  border-bottom: 2px solid #eee;
 }
 
 @media (max-width: 768px) {
-    table {
-        max-width: 100%;
-    }
-    table td {
-        padding: 0px;
-        font-size: 10px;
-    }
-    table td button {
-        font-size: 10px;
-        padding: 3px;
-    }
+  table {
+    max-width: 100%;
+  }
+  table td {
+    padding: 0px;
+    font-size: 10px;
+  }
+  table td button {
+    font-size: 10px;
+    padding: 3px;
+  }
 }
 
 table thead i {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 table #edit,
 table #delete {
-    padding: 5px 8px;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  padding: 5px 8px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 table #edit:hover,
 table #delete:hover {
-    background-color: crimson;
-    color: #ccc;
+  background-color: crimson;
+  color: #ccc;
 }
 
 .overlay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.881);
-    top: 0;
-    left: 0;
-    z-index: 999;
-    display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.881);
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
 }
 
 .overlay.active {
-    display: block;
+  display: block;
 }
 
 .overlay form {
-    position: absolute;
-    background-color: #eee;
-    padding: 30px;
-    max-width: 80%;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
+  position: absolute;
+  background-color: #eee;
+  padding: 30px;
+  max-width: 80%;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
 }
 
 .overlay form .close {
-    position: absolute;
-    right: -20px;
-    top: -20px;
-    padding: 10px;
-    background-color: #eee;
-    border-radius: 20%;
-    -webkit-border-radius: 20%;
-    -moz-border-radius: 20%;
-    -ms-border-radius: 20%;
-    -o-border-radius: 20%;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    cursor: pointer;
+  position: absolute;
+  right: -20px;
+  top: -20px;
+  padding: 10px;
+  background-color: #eee;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
 }
 
 .overlay form .close:hover {
-    background-color: crimson;
+  background-color: crimson;
 }
 
 .overlay form input {
-    width: 100%;
-    margin-bottom: 10px;
-    border: none;
-    outline: none;
-    padding: 10px;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    border-bottom: 2px solid crimson;
+  width: 100%;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-bottom: 2px solid crimson;
 }
 
 .overlay form input[type="submit"] {
-    background-color: #fff;
-    width: 150px;
-    cursor: pointer;
-    margin: auto;
-    display: block;
-    border-bottom: none;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
+  background-color: #fff;
+  width: 150px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+  border-bottom: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
 }
 
 .overlay form input[type="submit"]:hover {
-    background-color: crimson;
-    color: #fff;
+  background-color: crimson;
+  color: #fff;
 }
 
 .overlay form .logo {
-    font-size: 100px;
-    margin: 30px;
-    display: block;
-    text-align: center;
+  font-size: 100px;
+  margin: 30px;
+  display: block;
+  text-align: center;
 }
 
 #deletAll {
-    text-align: center;
-    padding: 20px;
+  text-align: center;
+  padding: 20px;
 }
 
 #deletAll button {
-    padding: 6px 8px;
-    width: 60%;
-    background-color: #ccc;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    -ms-border-radius: 6px;
-    -o-border-radius: 6px;
-    border: none;
-    outline: none;
-    transition: 0.5s;
-    -webkit-transition: 0.5s;
-    -moz-transition: 0.5s;
-    -ms-transition: 0.5s;
-    -o-transition: 0.5s;
-    cursor: pointer;
+  padding: 6px 8px;
+  width: 60%;
+  background-color: #ccc;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border: none;
+  outline: none;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  cursor: pointer;
 }
 
 #deletAll button:hover {
-    background-color: crimson;
-    color: #ccc;
+  background-color: crimson;
+  color: #ccc;
 }
