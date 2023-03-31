@@ -8,13 +8,12 @@
     <title>Contact list</title>
     <link rel="shortcut icon" href="contact-list.jpg">
     <!-- font Awesome library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" <!-- main
-        css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" <!-- main css -->
     <link rel=" stylesheet" href="main.css ">
 </head>
 
 <body>
-
+    <div class="scrollTotop">^</div>
     <div class="overlay">
 
         <form action="">
@@ -33,12 +32,15 @@
 
 
     <div class="contact-list">
-
-
         <header>
             <div class="search">
                 <i class="fa-solid fa-magnifying-glass"></i>
-                <input type="text" id="search" placeholder="search Contact">
+                <input type="text" id="search" placeholder="Search Contact">
+                <div class="arrow"><i class="fa-solid fa-chevron-up"></i></div>
+                <ul class="searchby">
+                    <li id="searchByname">Search By name</li>
+                    <li id="searchByphone">Search By phone</li>
+                </ul>
             </div>
             <button id="addContact">
                 <i class="fa-solid fa-user-plus"></i>
@@ -57,8 +59,7 @@
                     <td><i class="fa-solid fa-trash-can"></i>Delete</td>
                 </tr>
             </thead>
-            <tbody>
-
+            <tbody id="tbody">
 
             </tbody>
         </table>
