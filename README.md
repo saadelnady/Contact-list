@@ -1,2 +1,1 @@
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://awesomescreenshot.s3.amazonaws.com/image/4407004/38982584-793d472bfe5d155c6f5139f780bfc7c6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230415%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230415T185848Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=54752eb5e94289689f41ef5ff8a588804f3f9eefefcffc160a5df344dba26de6)
-
+<img src="https://phantom-marca.unidadeditorial.es/59b11b2e37be610929bf4634536d3d10/resize/660/f/webp/assets/multimedia/imagenes/2022/12/28/16721837440133.jpg" alt="Search TextInput" width="100%" height="" />
